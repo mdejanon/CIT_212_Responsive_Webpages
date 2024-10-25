@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_sheet.css">
+    <title>Responsive Webpages | About | CIT 212</title>
+    <style>
+        article {
+            flex-wrap: wrap;
+        }
+        .content {
+            width: 250px;
+            border: 2px solid #AD9337;
+            border-radius: 10px;
+            margin: 8px;
+            padding: 10px;
+        }
+
+        .content img {
+            display: block;
+            width: 99%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15px;
+            border-radius: 15px;
+        }
+
+        @media screen and (max-width: 800px) {
+           .content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>These are some Cool Content Blocks!</h1>
+        </header>
+        <article>
+            <span class="content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, enim asperiores deserunt atque culpa voluptate velit, nihil ducimus ipsa illo debitis hic magnam! Doloribus fuga reprehenderit architecto sequi asperiores ut?</p>
+                <img src="./images/dog1.jpg" alt="Cute Doggos">
+            </span>
+            <span class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, est accusantium? Sint provident voluptates itaque sequi magni quasi doloribus, quae architecto, at atque cumque, vel aliquam maiores soluta ab possimus.</p>
+                <img src="./images/dog2.jpg" alt="Cute Doggos">
+            </span>
+            <span class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nulla vitae quod ex impedit cupiditate facilis obcaecati, et eligendi, beatae quidem deserunt quia laudantium consequatur rem praesentium adipisci temporibus commodi.</p>
+                <img src="./images/dog3.jpg" alt="Cute Doggos">
+            </span>
+            <span class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, molestias voluptas doloribus pariatur praesentium illo sed saepe a aliquid atque ducimus tempora fuga ex nobis accusantium deserunt. Veritatis, enim commodi.</p>
+                <img src="./images/dog4.jpg" alt="Cute Doggos">
+            </span>
+        </article>
+        <nav>
+            <a href="./index.html" style="text-decoration: none; color: #EDBD11;">
+                <h2>HOME</h2>
+            </a>
+        </nav>
+        <footer>
+            <p>Created by Max De Janon</p>
+        </footer>
+</body>
+</html>

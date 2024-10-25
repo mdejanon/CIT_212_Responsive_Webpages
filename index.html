@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_sheet.css">
+    <title>Responsive Webpages | CIT 212</title>
+    <style>
+        article {
+            flex-wrap: nowrap;
+        }
+        
+        .lorembox {
+            height: auto;
+            flex: 1 1 720px;
+            margin: 8px;
+            padding: 2px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 800px) {
+          .lorembox {
+                flex: 1 1 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Welcome to this Cool Website!</h1>
+        </header>
+        <article>
+            <span class="lorembox">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, enim asperiores deserunt atque culpa voluptate velit, nihil ducimus ipsa illo debitis hic magnam! Doloribus fuga reprehenderit architecto sequi asperiores ut?</p>
+            </span>
+            <span class="lorembox">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, est accusantium? Sint provident voluptates itaque sequi magni quasi doloribus, quae architecto, at atque cumque, vel aliquam maiores soluta ab possimus.</p>
+            </span>
+        </article>
+        <nav>
+            <a href="./about.html" style="text-decoration: none; color: #EDBD11;">
+                <h2>LEARN MORE</h2>
+            </a>
+        </nav>
+        <footer>
+            <p>Created by Max De Janon</p>
+        </footer>
+    </div>
+</body>
+</html>
